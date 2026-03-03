@@ -9,5 +9,17 @@ package aula_02_03;
  * @author CG3038947
  */
 public class Retangulo {
+    private float largura, altura;
+    
+    public Retangulo(float largura, float altura){
+        this.largura = largura;
+        this.altura = altura;
+    }
+    
+    public float calculaArea(float largura, float altura){
+        float area = largura * altura;
+        return area;
+    }
+    
     
 }

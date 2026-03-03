@@ -9,5 +9,15 @@ package aula_02_03;
  * @author CG3038947
  */
 public class Funcionario {
+    String nome;
+    float salario;
     
+    public Funcionario(String nome, float salario){
+        if (salario < 0){
+            this.salario = 0;
+        } else {
+            this.salario = salario;
+            this.nome = nome;
+        }
+    }
 }
